@@ -1,0 +1,42 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.sv{
+  height: 1100rpx;
+}
+.page-loading{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 20px;
+} 
+.page-loading text{
+    font-size: 20px
+}
+.mod-list{
+  display: flex;
+  padding: 10rpx 20rpx;
+}
+.left{
+  width: 250rpx;
+  height:250rpx;
+  margin-right: 10px;
+}
+.left image{
+  width: 250rpx;
+  height:250rpx;
+}
+.right{
+  width: 450rpx
+}
+
+.detail-sum{
+  text-indent: 2rem
+}

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view>
+  <view>
+    <image src='{{list.images.large}}'></image>
+  </view>
+  <view>
+    <view>剧情简介</view>
+    <view class='detail-sum'>{{list.summary}}</view>
+  </view>
+</view>

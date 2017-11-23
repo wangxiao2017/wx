@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/coming/coming"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "正在上映"
+      },
+      {
+        "pagePath": "pages/coming/coming",
+        "text": "即将上映"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
